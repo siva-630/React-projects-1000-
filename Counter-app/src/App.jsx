@@ -7,20 +7,9 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="text-5xl flex items-center ">Counter App</h1>
-      
-      <div className="">count : {count}</div>
-      <div onClick={() => {
-        setCount(count+1)
-      }}>+</div>
-      <div onClick={() => {
-        count-1
-      }}> - </div>
-      <div onClick={() => {
-        setCount(0)
-      }}>Reset</div>
-
-
+      <div className="flex items-center justify-center h-screen bg-gray-100">
+          <div></div>
+      </div>
     </div>
   )
 }
