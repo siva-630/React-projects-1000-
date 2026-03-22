@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+  background-color: antiquewhite;
+  margin-left:100px ;
+  padding: 20px;
+  margin-right: 100px;
+  border-radius: 20px;
+
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+  .b{
+  margin-right: 10px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+ 
+}
