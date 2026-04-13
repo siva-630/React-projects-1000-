@@ -9,15 +9,7 @@ import {
 	signOut,
 } from "firebase/auth";
 
-const firebaseConfig = {
-	apiKey: "AIzaSyCiQYZj3ihNanrimUaUc13WQ6SYGMB_-1Q",
-	authDomain: "pdss-25bc5.firebaseapp.com",
-	projectId: "pdss-25bc5",
-	storageBucket: "pdss-25bc5.firebasestorage.app",
-	messagingSenderId: "620074613650",
-	appId: "1:620074613650:web:ca9de10eefd021a44c5f4b",
-	measurementId: "G-RVXZDZ99GJ",
-};
+
 
 const app = initializeApp(firebaseConfig);
 if (typeof window !== "undefined") {
